@@ -37,7 +37,7 @@ https://drive.google.com/drive/u/1/folders/1jbK-60344zbNYwgxpiV_oz9djLEKwKF6
 These models correspond to the full set of configurations and random seeds used in the study.
 
 Post-processing and Analysis
-The notebook final_leidos.ipynb is used to post-process and analyze model outputs.
+The notebook **final_leidos.ipynb** is used to post-process and analyze model outputs.
 Results are aggregated and grouped by:
 
 Disease cohort
