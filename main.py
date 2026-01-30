@@ -67,7 +67,7 @@ for seed in range(0, how_many_seeds):
 
 
 
-with open('test_final_results.pkl', 'wb') as f:
+with open('final_models.pkl', 'wb') as f:
     pickle.dump({'dict6': results_6_excel, 'dict8': results_8_excel}, f)
 
     
