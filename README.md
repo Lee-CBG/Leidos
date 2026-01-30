@@ -21,12 +21,15 @@ To train models for all configurations over 100 random seeds, run:
 
 ```bash
 python main.py
+```
 This will generate all intermediate outputs and trained models required for analysis.
 Requirements
 All required Python packages are listed in requirements.txt.
 Install dependencies with:
 
+```bash
 pip install -r requirements.txt
+```
 Trained Models
 The final trained models are available for download at the following link:
 https://drive.google.com/drive/u/1/folders/1jbK-60344zbNYwgxpiV_oz9djLEKwKF6
