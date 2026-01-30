@@ -23,7 +23,7 @@ COHORTS = ['Autoimmune: Other', 'Cancer: Other', 'HIV', 'Healthy Control',
            'IBD', 'Multiple Myeloma', 'Transplant']
 
 
-how_many_seeds = 2
+how_many_seeds = 100
 
 
 for seed in range(0, how_many_seeds):
