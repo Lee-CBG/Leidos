@@ -31,7 +31,7 @@ Install dependencies with:
 pip install -r requirements.txt
 ```
 Trained Models
-The final trained models are available for download at the following link:
+The final trained models and the complete MISPA dataset are available for download at the following link:
 https://drive.google.com/drive/u/1/folders/1jbK-60344zbNYwgxpiV_oz9djLEKwKF6
 
 These models correspond to the full set of configurations and random seeds used in the study.
