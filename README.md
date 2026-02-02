@@ -41,9 +41,9 @@ These models correspond to the full set of configurations and random seeds used 
 The notebook **final_leidos.ipynb** is used to post-process and analyze model outputs.
 Results are aggregated and grouped by:
 
-Disease cohort
-Train/test timepoint
-Model configuration
+Disease cohort,
+Train/test timepoint,
+Model configuration.
 This notebook generates the final summaries and figures used for evaluation.
 
 **Reproducibility**
