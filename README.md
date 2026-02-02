@@ -4,6 +4,9 @@ This repository contains the code used to train, evaluate, and post-process mach
 
 The pipeline is designed to support large-scale experimentation and comparative analysis across disease cohorts, timepoints, and model settings.
 
+The final trained models and the complete MISPA dataset are available for download at the following link:
+https://drive.google.com/drive/u/1/folders/1jbK-60344zbNYwgxpiV_oz9djLEKwKF6
+
 ---
 
 ## Overview
@@ -30,13 +33,11 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
-Trained Models
-The final trained models and the complete MISPA dataset are available for download at the following link:
-https://drive.google.com/drive/u/1/folders/1jbK-60344zbNYwgxpiV_oz9djLEKwKF6
+
 
 These models correspond to the full set of configurations and random seeds used in the study.
 
-Post-processing and Analysis
+**Post-processing and Analysis**
 The notebook **final_leidos.ipynb** is used to post-process and analyze model outputs.
 Results are aggregated and grouped by:
 
@@ -45,7 +46,7 @@ Train/test timepoint
 Model configuration
 This notebook generates the final summaries and figures used for evaluation.
 
-Reproducibility
+**Reproducibility**
 All experiments are run using fixed random seeds
 Each configuration is evaluated over 100 independent seeds
 Trained models and outputs are saved for reproducibility and downstream analysis
