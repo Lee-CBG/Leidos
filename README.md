@@ -26,7 +26,7 @@ To train models for all configurations over 100 random seeds, run:
 python main.py
 ```
 This will generate all intermediate outputs and trained models required for analysis.
-Requirements
+**Requirements**
 All required Python packages are listed in requirements.txt.
 Install dependencies with:
 
@@ -44,7 +44,7 @@ Results are aggregated and grouped by:
 Disease cohort,
 Train/test timepoint,
 Model configuration.
-This notebook generates the final summaries and figures used for evaluation.
+This notebook generates the final summaries used for evaluation.
 
 **Reproducibility**
 All experiments are run using fixed random seeds
@@ -52,4 +52,4 @@ Each configuration is evaluated over 100 independent seeds
 Trained models and outputs are saved for reproducibility and downstream analysis
 Notes
 Ensure sufficient compute and storage before running the full pipeline
-Downloading pre-trained models is recommended if retraining is not required
+Downloading pre-trained models is recommended if retraining is not feasible
