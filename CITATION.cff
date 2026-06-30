@@ -7,7 +7,6 @@ version: "v1.0.0"
 doi: "10.5281/zenodo.21079244"
 date-released: "2026-06-30"
 repository-code: "https://github.com/Lee-CBG/Leidos"
-license: # TODO: add SPDX license ID matching the repo LICENSE file, e.g. MIT, GPL-3.0, Apache-2.0
 contact:
   - family-names: "LaBaer"
     given-names: "Joshua"
